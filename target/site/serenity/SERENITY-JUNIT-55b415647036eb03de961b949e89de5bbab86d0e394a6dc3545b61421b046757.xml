@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Submit a request" skipped="0" tests="1" time="16.82" timestamp="2020-05-02 07:39:18"><testcase name="On submitting a blank request, the user should be able to see error messages"><failure message="reCaptcha needs to be disabled --  expected:&lt;5&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">reCaptcha needs to be disabled --  expected:&lt;5&gt; but was:&lt;0&gt;</failure><system-err>reCaptcha needs to be disabled --  expected:&lt;5&gt; but was:&lt;0&gt;&#13;
+page_elements.support_and_faq.SubmitARequestPageElements.validateErrorMessages(SubmitARequestPageElements.java:127)&#13;
+step_definition.support_and_faq.StepDefinitions.userShouldBeAbleToSeeErrorMessagesForCompulsoryFields(StepDefinitions.java:114)&#13;
+✽.user should be able to see error messages for compulsory fields(file:///C:/Users/shrin/IdeaProjects/test-automation-sample/src/test/resources/cucumber/features/support_and_faq/submit_a_request.feature:11)&#13;
+</system-err></testcase></testsuite>

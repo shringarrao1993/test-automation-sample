@@ -1,0 +1,824 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"><head>
+  <meta charset="utf-8" />
+  <!-- v17806 -->
+
+  <title>Wire – Support</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="" />
+
+  <link rel="canonical" href="https://support.wire.com/hc/en-us" />
+<link rel="alternate" hreflang="de" href="https://support.wire.com/hc/de" />
+<link rel="alternate" hreflang="en" href="https://support.wire.com/hc/en-us" />
+
+  <link rel="stylesheet" media="all" href="//static.zdassets.com/hc/assets/application-ebbf4a70487f9466c9be47bf4b6055f6.css" id="stylesheet" />
+    <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+    <link rel="stylesheet" media="all" href="//static.zdassets.com/hc/assets/theming_v1_support-7eacdab8920220a42cfc91404f4ed182.css" />
+  <link rel="stylesheet" type="text/css" href="//p17.zdassets.com/hc/theming_assets/487002/162184/style.css?digest=360101823817" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="//theme.zdassets.com/theme_assets/487002/f8b524ed1c64632a7ec22d9ed765d2628ee19374.ico" />
+
+    <script src="//static.zdassets.com/hc/assets/jquery-d5395f0b7ac5027403fc17855c46dbfc.js"></script>
+    
+    
+
+  <!--
+  Template Name: Ojom
+  Version: v3.1.12
+  Author: Allies Interactive
+  Website: http://www.diziana.com/
+  Corporate Website : http://www.diziana.com
+  Contact: support@diziana.com
+  Follow: https://www.twitter.com/dizianaEngage
+  Like: https://www.facebook.com/diziana.engage
+  Purchase: Diziana.com
+  License: You must have a valid license purchased only from
+  diziana.com in order to legally use the theme for your project.
+  Copyright: © 2019 Allies Interactive Services Pvt. Ltd. All Rights Reserved
+-->
+
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous" />
+
+<script>
+  /**
+  * Icon for home category/section blocks
+  *
+  * Upload icon (asset_ID.png) to assets for default Icon
+  * Replace ID with category/section ID
+  *
+  * Once asset is uploaded, click on it so details is shown in right pane
+  * Copy the text written under script tag and paste it below
+  *
+  * Your code should look like the below lines -
+  *  var assets360000004673 = "";
+  *  var assets360000004673 = "fas fa-pencil-alt";
+  **/
+
+  // Paste copied code here
+  var assets200089321 = "";
+  var assets115000753449 = "";
+  var assets115000762365 = "";
+  var assets115000759289 = "";
+  var assets115000759309 = "";
+  var banner200089321 = "";
+  var banner115000759289 = "";
+  var banner115000762365 = "";
+  var banner115000759309 = "";
+  var banner115000753449 = "";
+  var banner360001001020 = "//theme.zdassets.com/theme_assets/487002/df4e52182968c47144e7fe97d5a9ae9320139786.jpg";
+
+</script>
+<script>
+  /**
+    * Returns URL of image
+    *
+  **/
+
+  function getAssetURLById(id) {
+    return window["assets" + id];
+  }
+
+  /**
+    * sets the image url from assets id
+    *
+  **/
+  function setIcon(id) {
+    var icon = getAssetURLById(id);
+    if ( icon != undefined ) {
+      var blockIcon = $("."+ id + '-block-icon');
+      var blockFontIcon = $("."+ id + '-block-font-icon');
+      if ( icon.indexOf('fa-') &gt; -1 ) {
+        blockFontIcon.attr('class', icon);
+        blockFontIcon.show();
+        blockIcon.parent().removeClass('hide');
+      } else {
+        blockIcon.attr('src', icon);
+        blockIcon.parent().removeClass('hide');
+        blockFontIcon.hide();
+      }
+    }
+  }
+</script>
+
+  <script type="text/javascript" src="//p17.zdassets.com/hc/theming_assets/487002/162184/script.js?digest=360101823817"></script>
+<style>/*!
+ * Copyright Zendesk, Inc.
+ *
+ * Use of this source code is governed under the Apache License, Version 2.0
+ * found at http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+._324c4dab879ba825000621078996e10c-css{
+  position:relative;
+  border:1px solid #d8dcde;
+  border-radius:4px;
+  background-color:#fff;
+  padding:20px 40px;
+  line-height:1.42857;
+  color:#68737d;
+  font-size:14px;
+}
+
+._9ee6295a35c225acab03041dc37b1186-css{
+  display:block;
+  margin:0;
+  color:#2f3941;
+  font-weight:600;
+}
+
+._4b2402d3dcf0ba8467a8bb57bdd334e0-css{
+  margin:10px 0 0;
+}
+
+._324c4dab879ba825000621078996e10c-css.a815ff12f2ffc9ac03483a39325a73dd-css{
+  direction:rtl;
+}
+
+._99cc10b6fb8546b1d9c41bc41a9274a2-css{
+  display:block;
+  position:absolute;
+  top:4px;
+  right:4px;
+  transition:background-color .1s ease-in-out;
+  border:none;
+  border-radius:50%;
+  background-color:transparent;
+  cursor:pointer;
+  width:28px;
+  height:28px;
+  overflow:hidden;
+  text-decoration:none;
+  font-size:0;
+  -webkit-user-select:none;
+     -moz-user-select:none;
+      -ms-user-select:none;
+          user-select:none;
+}
+
+._99cc10b6fb8546b1d9c41bc41a9274a2-css:after,._99cc10b6fb8546b1d9c41bc41a9274a2-css:before{
+  display:block;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  transition:opacity .25s ease-in-out;
+  background-repeat:no-repeat;
+  background-position:50%;
+  background-size:12px;
+  content:"";
+}
+
+._99cc10b6fb8546b1d9c41bc41a9274a2-css:before{
+  opacity:1;
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' color='%2368737D'%3E%3Cpath stroke='currentColor' stroke-linecap='round' d='M3 9l6-6m0 6L3 3'/%3E%3C/svg%3E");
+}
+
+._99cc10b6fb8546b1d9c41bc41a9274a2-css:after{
+  opacity:0;
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' color='%232F3941'%3E%3Cpath stroke='currentColor' stroke-linecap='round' d='M3 9l6-6m0 6L3 3'/%3E%3C/svg%3E");
+}
+
+._99cc10b6fb8546b1d9c41bc41a9274a2-css._6edeb16321555b35a02ac57333f29036-css:before,._99cc10b6fb8546b1d9c41bc41a9274a2-css._204ad43d6c8d258d0f4708d33517f31f-css:before,._99cc10b6fb8546b1d9c41bc41a9274a2-css:focus:before,._99cc10b6fb8546b1d9c41bc41a9274a2-css:hover:before{
+  opacity:0;
+}
+
+._99cc10b6fb8546b1d9c41bc41a9274a2-css._6edeb16321555b35a02ac57333f29036-css:after,._99cc10b6fb8546b1d9c41bc41a9274a2-css._204ad43d6c8d258d0f4708d33517f31f-css:after,._99cc10b6fb8546b1d9c41bc41a9274a2-css:focus:after,._99cc10b6fb8546b1d9c41bc41a9274a2-css:hover:after{
+  opacity:1;
+}
+
+._99cc10b6fb8546b1d9c41bc41a9274a2-css._6edeb16321555b35a02ac57333f29036-css,._99cc10b6fb8546b1d9c41bc41a9274a2-css:focus{
+  outline:none;
+  background-color:rgba(104, 115, 125, .15);
+}
+
+._324c4dab879ba825000621078996e10c-css.a815ff12f2ffc9ac03483a39325a73dd-css ._99cc10b6fb8546b1d9c41bc41a9274a2-css{
+  right:auto;
+  left:4px;
+}
+
+._279ce882d5b4d40f90157d4671782328-css:not(._8501c48b891d479c737404064489e941-css) ._99cc10b6fb8546b1d9c41bc41a9274a2-css:before{
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' color='%23D93F4C'%3E%3Cpath stroke='currentColor' stroke-linecap='round' d='M3 9l6-6m0 6L3 3'/%3E%3C/svg%3E");
+}
+
+._279ce882d5b4d40f90157d4671782328-css:not(._8501c48b891d479c737404064489e941-css) ._99cc10b6fb8546b1d9c41bc41a9274a2-css:after{
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' color='%23681219'%3E%3Cpath stroke='currentColor' stroke-linecap='round' d='M3 9l6-6m0 6L3 3'/%3E%3C/svg%3E");
+}
+
+.fe7beb0ccf1d204827f7c9a2e8998068-css:not(._8501c48b891d479c737404064489e941-css) ._99cc10b6fb8546b1d9c41bc41a9274a2-css:before{
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' color='%23228F67'%3E%3Cpath stroke='currentColor' stroke-linecap='round' d='M3 9l6-6m0 6L3 3'/%3E%3C/svg%3E");
+}
+
+.fe7beb0ccf1d204827f7c9a2e8998068-css:not(._8501c48b891d479c737404064489e941-css) ._99cc10b6fb8546b1d9c41bc41a9274a2-css:after{
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' color='%230B3B29'%3E%3Cpath stroke='currentColor' stroke-linecap='round' d='M3 9l6-6m0 6L3 3'/%3E%3C/svg%3E");
+}
+
+._8dd0a76f68c7953bb63fdf03cd572e56-css:not(._8501c48b891d479c737404064489e941-css) ._99cc10b6fb8546b1d9c41bc41a9274a2-css:before{
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' color='%23AD5E18'%3E%3Cpath stroke='currentColor' stroke-linecap='round' d='M3 9l6-6m0 6L3 3'/%3E%3C/svg%3E");
+}
+
+._8dd0a76f68c7953bb63fdf03cd572e56-css:not(._8501c48b891d479c737404064489e941-css) ._99cc10b6fb8546b1d9c41bc41a9274a2-css:after{
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' color='%23703B15'%3E%3Cpath stroke='currentColor' stroke-linecap='round' d='M3 9l6-6m0 6L3 3'/%3E%3C/svg%3E");
+}
+
+._279ce882d5b4d40f90157d4671782328-css:not(._8501c48b891d479c737404064489e941-css) ._99cc10b6fb8546b1d9c41bc41a9274a2-css._6edeb16321555b35a02ac57333f29036-css,._279ce882d5b4d40f90157d4671782328-css:not(._8501c48b891d479c737404064489e941-css) ._99cc10b6fb8546b1d9c41bc41a9274a2-css:focus{
+  background-color:rgba(204, 51, 64, .15);
+}
+
+.fe7beb0ccf1d204827f7c9a2e8998068-css:not(._8501c48b891d479c737404064489e941-css) ._99cc10b6fb8546b1d9c41bc41a9274a2-css._6edeb16321555b35a02ac57333f29036-css,.fe7beb0ccf1d204827f7c9a2e8998068-css:not(._8501c48b891d479c737404064489e941-css) ._99cc10b6fb8546b1d9c41bc41a9274a2-css:focus{
+  background-color:rgba(3, 129, 83, .15);
+}
+
+._8dd0a76f68c7953bb63fdf03cd572e56-css:not(._8501c48b891d479c737404064489e941-css) ._99cc10b6fb8546b1d9c41bc41a9274a2-css._6edeb16321555b35a02ac57333f29036-css,._8dd0a76f68c7953bb63fdf03cd572e56-css:not(._8501c48b891d479c737404064489e941-css) ._99cc10b6fb8546b1d9c41bc41a9274a2-css:focus{
+  background-color:rgba(173, 94, 24, .15);
+}
+
+._324c4dab879ba825000621078996e10c-css ._99cc10b6fb8546b1d9c41bc41a9274a2-css._6edeb16321555b35a02ac57333f29036-css:active,._324c4dab879ba825000621078996e10c-css ._99cc10b6fb8546b1d9c41bc41a9274a2-css:focus:active{
+  background-color:transparent;
+}
+
+._506878364b501ddbc318474af37cf483-css{
+  background-color:#f8f9f9;
+}
+
+._41abcb0799d71837a0174b2f8e5abbb8-css{
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' color='%2368737D'%3E%3Cg stroke='currentColor'%3E%3Ccircle cx='7.5' cy='8.5' r='7' fill='none'/%3E%3Cpath stroke-linecap='round' d='M7.5 12.5V8'/%3E%3C/g%3E%3Ccircle cx='7.5' cy='5' r='1' fill='currentColor'/%3E%3C/svg%3E");
+}
+
+._279ce882d5b4d40f90157d4671782328-css{
+  border-color:#f5b5ba;
+  background-color:#fff0f1;
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' color='%23CC3340'%3E%3Cg fill='none' stroke='currentColor'%3E%3Ccircle cx='7.5' cy='8.5' r='7'/%3E%3Cpath stroke-linecap='round' d='M7.5 4.5V9'/%3E%3C/g%3E%3Ccircle cx='7.5' cy='12' r='1' fill='currentColor'/%3E%3C/svg%3E");
+  color:#8c232c;
+}
+
+.fe7beb0ccf1d204827f7c9a2e8998068-css{
+  border-color:#aecfc2;
+  background-color:#edf8f4;
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' color='%23038153'%3E%3Cg fill='none' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M4 9l2.5 2.5 5-5'/%3E%3Ccircle cx='7.5' cy='8.5' r='7'/%3E%3C/g%3E%3C/svg%3E");
+  color:#186146;
+}
+
+._8dd0a76f68c7953bb63fdf03cd572e56-css{
+  border-color:#fcdba9;
+  background-color:#fff8ed;
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' color='%23AD5E18'%3E%3Cpath fill='none' stroke='currentColor' stroke-linecap='round' d='M.88 13.77L7.06 1.86c.19-.36.7-.36.89 0l6.18 11.91c.17.33-.07.73-.44.73H1.32c-.37 0-.61-.4-.44-.73zM7.5 6v3.5'/%3E%3Ccircle cx='7.5' cy='12' r='1' fill='currentColor'/%3E%3C/svg%3E");
+  color:#ad5e18;
+}
+
+._279ce882d5b4d40f90157d4671782328-css,._41abcb0799d71837a0174b2f8e5abbb8-css,.fe7beb0ccf1d204827f7c9a2e8998068-css,._8dd0a76f68c7953bb63fdf03cd572e56-css{
+  background-repeat:no-repeat;
+  background-position:24px 22px;
+  padding-left:50px;
+}
+
+._8501c48b891d479c737404064489e941-css{
+  box-shadow:0 20px 28px 0 rgba(4, 68, 77, .15);
+}
+
+._8501c48b891d479c737404064489e941-css._279ce882d5b4d40f90157d4671782328-css,._8501c48b891d479c737404064489e941-css.fe7beb0ccf1d204827f7c9a2e8998068-css,._8501c48b891d479c737404064489e941-css._8dd0a76f68c7953bb63fdf03cd572e56-css{
+  border-color:#d8dcde;
+  background-color:#fff;
+  color:#49545c;
+}
+
+._279ce882d5b4d40f90157d4671782328-css ._9ee6295a35c225acab03041dc37b1186-css{
+  color:#681219;
+}
+
+.fe7beb0ccf1d204827f7c9a2e8998068-css ._9ee6295a35c225acab03041dc37b1186-css{
+  color:#0b3b29;
+}
+
+._8dd0a76f68c7953bb63fdf03cd572e56-css ._9ee6295a35c225acab03041dc37b1186-css{
+  color:#703b15;
+}
+
+._8501c48b891d479c737404064489e941-css._279ce882d5b4d40f90157d4671782328-css ._9ee6295a35c225acab03041dc37b1186-css{
+  color:#cc3340;
+}
+
+._8501c48b891d479c737404064489e941-css.fe7beb0ccf1d204827f7c9a2e8998068-css ._9ee6295a35c225acab03041dc37b1186-css{
+  color:#038153;
+}
+
+._8501c48b891d479c737404064489e941-css._8dd0a76f68c7953bb63fdf03cd572e56-css ._9ee6295a35c225acab03041dc37b1186-css{
+  color:#ad5e18;
+}
+
+._279ce882d5b4d40f90157d4671782328-css.a815ff12f2ffc9ac03483a39325a73dd-css,._41abcb0799d71837a0174b2f8e5abbb8-css.a815ff12f2ffc9ac03483a39325a73dd-css,.fe7beb0ccf1d204827f7c9a2e8998068-css.a815ff12f2ffc9ac03483a39325a73dd-css,._8dd0a76f68c7953bb63fdf03cd572e56-css.a815ff12f2ffc9ac03483a39325a73dd-css{
+  background-position:calc(100% - 24px) 22px;
+  padding-right:50px;
+  padding-left:40px;
+}
+</style><style>.f6cbf5dbd7094638d94a9d48de4272ad-css {
+}</style><script charset="utf-8" src="//static.zdassets.com/hc/assets/react-83330e387cb7e738a30dddddbeca8654.js"></script><script charset="utf-8" src="//static.zdassets.com/hc/assets/48-7b762689f5c82b60bffb70a572ca4cb3.js"></script><script src="https://static.zdassets.com/answer_bot_embeddable/answerBot.js"></script><style>.f03d2584f163e3a2a104f430a15af54f-css {
+}
+
+._0124f0de2dc35111e0d8b199e6bb02be-css {
+}
+
+._0d5695f717dac86f770885896d0cc158-css {
+}
+
+._32a324f27ebbfe9056eefe6cd6265e5e-css {
+}
+
+._9440ef67f6ee9ccf66b65592d4b77443-css {
+  background-color: #f8f9f9;
+}
+
+._047323d4ac69153cd407a6ff44f5dfbb-css {
+  background-color: transparent !important;
+  padding: 0;
+}
+
+.f98a1b53ec6ec5c3dbe53172cbc6ff12-css {
+}
+
+.cd6ad42ca215ebe694a751df9ffe4754-css {
+}
+
+._770067c5bcccbf7afc960ad9271b90f2-css {
+}
+</style><style>._63983a716933a264792c2d8aeb1396b7-css {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  width: 360px;
+  z-index: 2147483647;
+}
+
+[dir="rtl"] ._63983a716933a264792c2d8aeb1396b7-css {
+  right: 0;
+  left: 16px;
+}
+
+._63983a716933a264792c2d8aeb1396b7-css &gt; * {
+  margin-bottom: 10px;
+}</style></head>
+<body class="">
+  
+  
+
+  <header class="header-wrapper">
+  <div class="header container">
+    <div class="logo">
+      <a href="https://wire.com/">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="57" height="18" viewBox="0 0 57 18"><path fill-rule="evenodd" d="M10.857 14.767a5.45 5.45 0 0 1-1.277-3.51l.002-8.688c0-.708.573-1.284 1.277-1.284s1.277.576 1.277 1.284l-.002 8.687a5.45 5.45 0 0 1-1.277 3.51zm9.58-3.51c0 3.01-2.409 5.458-5.402 5.458a5.413 5.413 0 0 1-3.233-1.073 6.72 6.72 0 0 0 1.61-4.386l.002-8.687A2.565 2.565 0 0 0 10.859 0a2.565 2.565 0 0 0-2.555 2.569l-.002 8.687c0 1.675.64 3.206 1.65 4.386a5.413 5.413 0 0 1-3.233 1.073c-2.993 0-5.442-2.449-5.442-5.459V.66H0v10.597C0 14.975 3.035 18 6.733 18a6.681 6.681 0 0 0 4.164-1.458A6.587 6.587 0 0 0 15.028 18c3.698 0 6.686-3.025 6.686-6.744V.66h-1.278v10.597zm5.11 6.403h1.278V.624h-1.277V17.66zM38.008.327a7.337 7.337 0 0 0-6.073 3.233V.624h-1.278V17.66h1.278V7.72c0-3.367 2.725-6.106 6.073-6.106V.327zm2.394 13.705c-2.485-2.965-2.342-7.416.432-10.208a7.478 7.478 0 0 1 10.141-.436L40.401 14.032zM52.784 3.386a8.75 8.75 0 0 0-12.854-.471c-3.424 3.446-3.424 9.054 0 12.5a8.75 8.75 0 0 0 12.417.002l-.903-.91a7.478 7.478 0 0 1-10.14.434l5.285-5.32 6.195-6.235zM53.964.77h.447v1.16h.136V.77h.45V.643h-1.033V.77zM56.34.643l-.445 1.116L55.45.643h-.21v1.286h.131V.779l.457 1.15h.124l.455-1.145v1.145h.132V.643h-.201z"/></svg> 
+      </a>
+    </div>
+    <div class="nav-wrapper">
+      <span class="icon-menu"></span>
+      <nav class="user-nav" id="user-nav">
+        
+          <a href="https://wire.com/download/" title="Download">Download</a>
+          <a href="https://wire.com/pricing/" title="Pricing">Pricing</a>
+          <a href="https://wire.com/security/" title="Security">Security</a>
+          <a href="/hc" title="Support">Support</a>
+        
+
+        
+        
+
+        <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+      </nav>
+
+      
+      
+    </div>
+  </div>
+</header>
+
+
+  <main role="main">
+    <script>
+  var templateName = "homepage"
+</script>
+
+<section class="section hero hero-wrapper">
+  <div class="hero-inner">
+    
+      <h1 class="welcome-message">
+        We're here to help.
+      </h1>
+    
+    <form role="search" class="search search-full" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓" /><input type="search" name="query" id="query" placeholder="Enter a keyword" autocomplete="off" aria-label="Search" /></form>
+    
+    <span id="search_placeholder_text" data-value="Enter a keyword" style="display:none;"></span>
+    <script>
+      //dynamic placeholder in searchbar
+      var gtext = $("span#search_placeholder_text").data('value');
+      $('#query').attr('placeholder', gtext);
+    </script>
+    
+  </div>
+</section>
+
+<section class="container knowledge-base section">
+  <section class="categories blocks">
+    <ul class="blocks-list">
+      
+        
+          <li class="blocks-item custom-block">
+            <a href="/hc/categories/360000242937" class="blocks-item-link" title="Getting Started">
+              <span class="block-icon-wrapper">
+                
+                  <img src="//theme.zdassets.com/theme_assets/487002/768d46c44a751e58f2650f3ad5f19f3f74db1979.svg" alt=" Getting started " class="block-icon" />
+                
+              </span>
+              <h2 class="blocks-item-title">
+                Getting started
+              </h2>
+              
+              <p class="blocks-item-description">
+                
+                  Set up a team plan for your business, institution, or professional organization
+                
+              </p>
+              
+            </a>
+          </li>
+        
+
+        
+          <li class="blocks-item custom-block">
+            <a href="/hc/categories/360000248538" class="blocks-item-link" title="Team Management">
+              <span class="block-icon-wrapper">
+                
+                  <img src="//theme.zdassets.com/theme_assets/487002/1b2cb6d94e6e1c1281a17045b9277c07e1208d75.svg" alt=" Team Management " class="block-icon" />
+                
+              </span>
+              <h2 class="blocks-item-title">
+                Team Management
+              </h2>
+              
+              <p class="blocks-item-description">
+                
+                  Manage your team settings, user roles, and payment methods
+                
+              </p>
+              
+            </a>
+          </li>
+        
+
+        
+          <li class="blocks-item custom-block">
+            <a href="/hc/categories/360000256678" class="blocks-item-link" title="Profile &amp; Settings">
+              <span class="block-icon-wrapper">
+                
+                  <img src="//theme.zdassets.com/theme_assets/487002/6d9ddc0672a5eb386c0205db8efdf8bf3655f0b4.svg" alt=" Profile &amp; Settings " class="block-icon" />
+                
+              </span>
+              <h2 class="blocks-item-title">
+                Profile &amp; Settings
+              </h2>
+              
+              <p class="blocks-item-description">
+                
+                  Change your account settings, profile picture, username, and notification preferences
+                
+              </p>
+              
+            </a>
+          </li>
+        
+
+        
+          <li class="blocks-item custom-block">
+            <a href="/hc/categories/360000243257" class="blocks-item-link" title="Using Wire">
+              <span class="block-icon-wrapper">
+                
+                  <img src="//theme.zdassets.com/theme_assets/487002/9e500a871c0204b7c5b8ff5211c3b9ab209588b7.svg" alt=" Using Wire " class="block-icon" />
+                
+              </span>
+              <h2 class="blocks-item-title">
+                Using Wire
+              </h2>
+              
+              <p class="blocks-item-description">
+                
+                  Collaborate effectively with groups, file sharing and search
+                
+              </p>
+              
+            </a>
+          </li>
+        
+
+        
+          <li class="blocks-item custom-block">
+            <a href="/hc/categories/200203230" class="blocks-item-link" title="Guests">
+              <span class="block-icon-wrapper">
+                
+                  <img src="//theme.zdassets.com/theme_assets/487002/a233f226826ceec0f52dfaf23b4ce69b7f243094.svg" alt=" Guests " class="block-icon" />
+                
+              </span>
+              <h2 class="blocks-item-title">
+                Guests
+              </h2>
+              
+              <p class="blocks-item-description">
+                
+                  Invite external guests to your conversations
+                
+              </p>
+              
+            </a>
+          </li>
+        
+
+        
+          <li class="blocks-item custom-block">
+            <a href="/hc/categories/200207424" class="blocks-item-link" title="Conferencing">
+              <span class="block-icon-wrapper">
+                
+                  <img src="//theme.zdassets.com/theme_assets/487002/72e85206650d072bdf845712b1ea3f7635739ed8.svg" alt=" Conferencing " class="block-icon" />
+                
+              </span>
+              <h2 class="blocks-item-title">
+                Conferencing
+              </h2>
+              
+              <p class="blocks-item-description">
+                
+                  Audio and video calls, conferencing, and screen sharing
+                
+              </p>
+              
+            </a>
+          </li>
+        
+
+        
+          <li class="blocks-item custom-block">
+            <a href="/hc/categories/200203270" class="blocks-item-link" title="Privacy &amp; Security">
+              <span class="block-icon-wrapper">
+                
+                  <img src="//theme.zdassets.com/theme_assets/487002/58dec37625d061424ff5f36abc833955255819b3.svg" alt=" Privacy &amp; Security " class="block-icon" />
+                
+              </span>
+              <h2 class="blocks-item-title">
+                Privacy &amp; Security
+              </h2>
+              
+              <p class="blocks-item-description">
+                
+                  End-to-end encryption, data protection, and GDPR
+                
+              </p>
+              
+            </a>
+          </li>
+        
+      
+
+      
+    </ul>
+  </section>
+</section>
+
+
+
+
+  </main>
+
+  <footer class="footer">
+  
+    <div class="footer-inner footer-top">
+      <div class="footer-links">
+        <h3 class="footer-link-title" title="Product">Product</h3>
+        <ul class="footer-link-list">
+          <li class="footer-link-item">
+            <a href="https://wire.com/explore/" class="footer-link-item-link" title="Why wire?">
+              Why wire?
+            </a>
+          </li>
+
+          <li class="footer-link-item">
+            <a href="https://wire.com/products/personal-secure-messenger/" class="footer-link-item-link" title="Personal">
+              Personal
+            </a>
+          </li>
+
+          <li class="footer-link-item">
+            <a href="https://wire.com/products/pro-secure-team-collaboration/" class="footer-link-item-link" title="Pro">
+              Pro
+            </a>
+          </li>
+
+          <li class="footer-link-item">
+            <a href="https://wire.com/products/red-crisis-communication-software/" class="footer-link-item-link" title="Wire Red">
+              Wire Red
+            </a>
+          </li>
+
+          <li class="footer-link-item">
+            <a href="https://wire.com/pricing/" class="footer-link-item-link" title="Pricing">
+              Pricing
+            </a>
+          </li>
+
+          <li class="footer-link-item">
+            <a href="https://wire.com/security/" class="footer-link-item-link" title="Security">
+              Security
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h3 class="footer-link-title" title="Features">Features</h3>
+        <ul class="footer-link-list">
+          <li class="footer-link-item">
+            <a href="https://wire.com/features/encrypted-messaging/" class="footer-link-item-link" title="Messaging">
+              Messaging
+            </a>
+          </li>
+
+          <li class="footer-link-item">
+            <a href="https://wire.com/features/encrypted-voice-video/" class="footer-link-item-link" title="Voice and video">
+              Voice and video
+            </a>
+          </li>
+
+          <li class="footer-link-item">
+            <a href="https://wire.com/features/file-sharing-productivity/" class="footer-link-item-link" title="File Sharing">
+              File Sharing
+            </a>
+          </li>
+
+          <li class="footer-link-item">
+            <a href="https://wire.com/features/encrypted-guest-rooms/" class="footer-link-item-link" title="Guest Rooms">
+              Guest Rooms
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h3 class="footer-link-title" title="Company">Company</h3>
+        <ul class="footer-link-list">
+          <li class="footer-link-item">
+            <a href="https://wire.com/about/" class="footer-link-item-link" title="About Wire">
+              About Wire
+            </a>
+          </li>
+
+          <li class="footer-link-item">
+            <a href="https://wire.com/jobs/" class="footer-link-item-link" title="Jobs">
+              Jobs
+            </a>
+          </li>
+
+          <li class="footer-link-item">
+            <a href="https://wire.com/blog/" class="footer-link-item-link" title="Blog">
+              Blog
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h3 class="footer-link-title" title="Resources">Resources</h3>
+        <ul class="footer-link-list">
+          <li class="footer-link-item">
+            <a href="https://wire.com/download/" class="footer-link-item-link" title="Download">
+              Download
+            </a>
+          </li>
+
+          <li class="footer-link-item">
+            <a href="/hc" class="footer-link-item-link" title="FAQ and support">
+              FAQ and support
+            </a>
+          </li>
+
+          <li class="footer-link-item">
+            <a href="https://go.wire.com/partner.html" class="footer-link-item-link" title="Partners">
+              Partners
+            </a>
+          </li>
+
+          <li class="footer-link-item">
+            <a href="https://github.com/wireapp" class="footer-link-item-link" title="Source Code">
+              Source Code
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-inner footer-middle">
+      <nav>
+        <a href="https://wire.com/en/legal/#terms" title="Privacy &amp; terms of user">Privacy &amp; terms of use</a>
+        <div class="footer-language-selector">
+          
+          <div class="dropdown language-selector" aria-haspopup="true">
+            <a class="dropdown-toggle" title="English (United States)">
+              English (United States)
+            </a>
+            <span class="dropdown-menu dropdown-menu-end" role="menu">
+              
+              <a href="/hc/change_language/de?return_to=%2Fhc%2Fde" dir="ltr" rel="nofollow" role="menuitem" title="Deutsch">
+                Deutsch
+              </a>
+              
+            </span>
+          </div>
+          
+        </div>
+        <div class="footer-currency-selector">
+          <div class="dropdown currency-selector" aria-haspopup="true">
+            <a class="dropdown-toggle" title="EUR">EUR</a>
+            <span class="dropdown-menu dropdown-menu-end" role="menu">
+              <a href="https://wire.com/en/pricing/?currency=EUR" rel="nofollow" role="menuitem" title="EUR">EUR</a>
+              <a href="https://wire.com/en/pricing/?currency=USD" rel="nofollow" role="menuitem" title="USD">USD</a>
+            </span>
+          </div>
+        </div>
+      </nav>
+
+      <ul class="follow share">
+        
+          <li>
+            <a title="Follow us on twitter" href="https://twitter.com/wire">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+
+        
+          <li>
+            <a title="Connect with us linkedin" href="https://www.linkedin.com/company/4836762/">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+        
+
+        
+          <li>
+            <a title="Like us on facebook" href="https://facebook.com/wire">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+        
+
+        
+
+        
+
+        <li>
+          <a title="Follow us on github" href="https://github.com/wireapp">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  
+
+  <div class="footer-inner footer-bottom">
+    <div class="copyright">
+      <span>© Wire Swiss GmbH</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var newDate = new Date();
+  var year = newDate.getFullYear();
+  $('#year').html(year);
+</script>
+
+
+
+  <!-- / -->
+  
+  <script src="//static.zdassets.com/hc/assets/en-us.f9dd74d52e6c8eec0350.js"></script>
+  <script src="https://wearezeta.zendesk.com/auth/v2/host.js" data-brand-id="162184" data-return-to="https://support.wire.com/hc/en-us" data-theme="hc" data-locale="en-us" data-auth-origin="162184,true,true"></script>
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"wearezeta","environment":"production","name":"Wire Support"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","is_admin":false,"organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"en-us","csrf_token":null,"shared_csrf_token":null},"settings":{"zopim_enabled":true},"usage_tracking":{"event":"front_page_viewed","data":"BAh7BjoKX21ldGF7CzoPYWNjb3VudF9pZGkDWm4HOhNoZWxwX2NlbnRlcl9pZGkEDifsCzoNYnJhbmRfaWRpA4h5AjoMdXNlcl9pZDA6DnVzZXJfcm9sZUkiDmFub255bW91cwY6BkVUOgtsb2NhbGVJIgplbi11cwY7C1Q=--2a96ca538be07ed6dc5fd6b66d92ef97c59dc99b","url":"https://support.wire.com/hc/tracking/events?locale=en-us"},"current_record_id":null,"current_record_url":null,"current_record_title":null,"search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://wearezeta.zendesk.com","current_host_mapping":"support.wire.com","current_path":null,"authentication_domain":"https://wearezeta.zendesk.com","show_autocomplete_breadcrumbs":true,"rollbar_config":{"enabled":true,"endpoint":"https://rollbar-eu.zendesk.com/api/1/item/","accessToken":"f575c68c45fc4d5e9025994620c5c3dc","captureUncaught":true,"captureUnhandledRejections":true,"payload":{"environment":"production","client":{"javascript":{"source_map_enabled":true,"code_version":"739f2388cb7d5dc7692bcf1ea59c378aa7a4c0e4","guess_uncaught_frames":true}}}},"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"user_aliases_enabled":false,"has_anonymous_kb_voting":false,"has_multi_language_help_center":true,"mobile_device":false,"mobile_site_enabled":false,"show_at_mentions":false,"embeddables_config":{"embeddables_web_widget":false,"embeddables_connect_ipms":false},"base_domain":"zendesk.com","answer_bot_subdomain":"static","plans_url":"https://support.wire.com/hc/admin/plan?locale=en-us","manage_content_url":"https://support.wire.com/hc/en-us","arrange_content_url":"https://support.wire.com/hc/admin/arrange_contents?locale=en-us","general_settings_url":"https://support.wire.com/hc/admin/general_settings?locale=en-us","user_segments_url":"https://wearezeta.zendesk.com/knowledge/user_segments?brand_id=162184","has_community_enabled":false,"has_user_segments":true,"has_answer_bot_web_form_enabled":false,"billing_url":"/access/return_to?return_to=https://wearezeta.zendesk.com/admin/billing/subscription","has_answer_bot":true,"has_block_answer_bot_embeddable":false,"answer_bot_management_url":"/access/return_to?return_to=https://wearezeta.zendesk.com/agent/admin/answer_bot","is_account_owner":false,"theming_cookie_key":"hc-da39a3ee5e6b4b0d3255bfef95601890afd807091-preview","is_preview":false,"has_guide_user_segments_search":true,"has_alternate_templates":true,"arrange_articles_url":"https://wearezeta.zendesk.com/knowledge/arrange?brand_id=162184","article_verification_url":"https://wearezeta.zendesk.com/knowledge/verification?brand_id=162184","has_article_verification":true,"guide_language_settings_url":"https://support.wire.com/hc/admin/language_settings?locale=en-us","docs_importer_url":"https://wearezeta.zendesk.com/knowledge/import_articles?brand_id=162184","community_settings_url":"https://wearezeta.zendesk.com/knowledge/community_settings?brand_id=162184","gather_plan_state":"subscribed","search_settings_url":"https://wearezeta.zendesk.com/knowledge/search_settings?brand_id=162184","has_multibrand_search_in_plan":true,"theming_api_version":1,"has_merged_stats_endpoints":false,"has_pci_credit_card_custom_field":true,"current_brand_id":162184,"help_center_restricted":false,"current_brand_active":true,"is_assuming_someone_else":false,"flash_messages":[]};
+</script>
+
+  <script src="//static.zdassets.com/hc/assets/moment-f6f8513da6ab17eadada59a1a4edb536.js"></script>
+  <script src="//static.zdassets.com/hc/assets/hc_enduser-98b240aaf64e8be971ffb6e8168c0e45.js"></script>
+  
+
+<div><div class="_63983a716933a264792c2d8aeb1396b7-css"></div></div><div><iframe data-reactroot="" id="automaticAnswers" class="zEWidget-automaticAnswers" tabindex="-1" style="border: none; background: transparent; transform: translateZ(0px); position: fixed; opacity: 0; bottom: 0px; margin: 0px 6px 6px 0px; z-index: 2147483647; right: 0px; height: 188px; width: 410px; transition-property: none; transition-timing-function: unset; top: -9999px;"></iframe></div></body></html>

@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Block item navigation","On clicking a block item, the user should be taken to a categories page","SUCCESS","2020-03-31T20:48:20.0211651+02:00[Europe/Berlin]","0.0","7.8"
+"Search results and article suggestions or autocomplete","On entering search keywords, the user should be able to see article suggestions","SUCCESS","2020-03-31T20:48:29.2239144+02:00[Europe/Berlin]","0.0","29.1"
+"Search results and article suggestions or autocomplete","On entering search keywords, and clicking an article suggestion, the user should be taken to an article page","SUCCESS","2020-03-31T20:48:58.3242814+02:00[Europe/Berlin]","0.0","12.84"
+"Search results and article suggestions or autocomplete","On entering search keywords and pressing enter, user should be able to see search results","SUCCESS","2020-03-31T20:49:11.9449701+02:00[Europe/Berlin]","0.0","28.18"
+"Submit a request","On submitting a blank request, the user should be able to see error messages","FAILURE","2020-03-31T20:49:40.1264775+02:00[Europe/Berlin]","0.0","14.66"

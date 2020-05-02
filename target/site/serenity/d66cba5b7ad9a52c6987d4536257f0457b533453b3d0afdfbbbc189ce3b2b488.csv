@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Submit a request","On submitting a blank request, the user should be able to see error messages","FAILURE","2020-03-31T20:49:40.1264775+02:00[Europe/Berlin]","0.0","14.66"
